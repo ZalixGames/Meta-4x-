@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta 4x - Service Discontinued</title>
+    
+    <!-- Google Fonts سے خوبصورت فونٹ شامل کرنے کے لیے -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- یہ سارا ڈیزائن CSS کے ذریعے کیا گیا ہے --- */
+
+        /* پوری باڈی کے لیے اسٹائل */
+        body {
+            background-color: #121212; /* گہرا پس منظر */
+            color: #f0f0f0; /* ہلکے رنگ کا ٹیکسٹ */
+            font-family: 'Poppins', sans-serif; /* خوبصورت فونٹ */
+            margin: 0;
+            display: flex;
+            justify-content: center; /* مواد کو درمیان میں لانا (افقی) */
+            align-items: center;    /* مواد کو درمیان میں لانا (عمودی) */
+            min-height: 100vh;      /* اسکرین کی پوری اونچائی لے */
+            text-align: center;
+        }
+
+        /* مواد کے لیے کنٹینر */
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            /* اینیمیشن شامل کرنے کے لیے */
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        /* ویب سائٹ کا نام (بڑی ہیڈنگ) */
+        h1 {
+            font-size: 4rem; /* بڑا فونٹ سائز */
+            font-weight: 600; /* موٹا فونٹ */
+            margin-bottom: 0.5em;
+            letter-spacing: 3px; /* حروف کے درمیان فاصلہ */
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* ہلکا سا سایہ */
+        }
+
+        /* پیغام کے لیے پیراگراف */
+        p {
+            font-size: 1.2rem;
+            font-weight: 300; /* پتلا فونٹ */
+            color: #cccccc; /* تھوڑا مدھم رنگ */
+            line-height: 1.6;
+        }
+        
+        /* اینیمیشن کی تعریف */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* چھوٹے اسکرینز کے لیے فونٹ سائز ایڈجسٹ کرنا */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Meta 4x</h1>
+        <p>This service is no longer available.</p>
+        <p>We have officially ceased operations. We thank you for your past support and wish you the best in your future endeavors.</p>
+    </div>
+
+</body>
+</html>
